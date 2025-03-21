@@ -1,10 +1,10 @@
-# Use the official Foundry Docker image
+# Base image with Node.js and Foundry Anvil pre-installed
 FROM ghcr.io/foundry-rs/foundry:latest
 
-# Install Node.js
-RUN apt-get update && apt-get install -y nodejs npm
+# Use root permissions to install Node.js
+USER root
 
-# Expose port
+# Expose Anvil RPC port
 EXPOSE 8545
 
 # Start Anvil with BSC mainnet fork
