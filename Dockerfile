@@ -13,7 +13,7 @@ ENTRYPOINT ["bash", "-c", "\
   anvil \
     --fork-url https://base-mainnet.g.alchemy.com/v2/mB684Ag2wj58-A-KjPY7oEGvyduvlHnQ \
     --fork-chain-id 8453 \
-    --fork-block-number 38025379 \
+    --fork-block-number 38026734 \
     --host 0.0.0.0 \
     --port 8547 \
     --auto-impersonate \
