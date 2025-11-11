@@ -9,9 +9,9 @@ EXPOSE 8547
 
 # Set entrypoint to start Anvil
 ENTRYPOINT ["anvil", 
-  "--fork-url", "https://rpc.ankr.com/bsc/f5afe04544cb6b2befaa35cfd13e388dd47c478a2a069f519467fd9cacb4fb0b",
+  "--fork-url", "https://base-mainnet.g.alchemy.com/v2/628L59-41bMIkZjg19DZDm6p-4z7D19Z",
   "--fork-chain-id", "8453",
-  "--fork-block-number", "38027066",
+  "--fork-block-number", "38027198",
   "--host", "0.0.0.0",
   "--port", "8547",
   "--auto-impersonate"
