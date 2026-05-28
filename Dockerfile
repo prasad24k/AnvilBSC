@@ -8,4 +8,4 @@ USER root
 EXPOSE 8547
 
 # Set entrypoint to start Anvil
-ENTRYPOINT ["anvil", "--fork-url","https://bsc-dataseed.binance.org/", "--chain-id", "56", "--fork-block-number", "100863986", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
+ENTRYPOINT ["anvil", "--fork-url", "https://bsc-dataseed.binance.org/", "--chain-id", "56", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
