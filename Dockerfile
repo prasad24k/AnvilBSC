@@ -8,7 +8,7 @@ USER root
 EXPOSE 8547
 
 # Set entrypoint to start Anvil
-ENTRYPOINT ["anvil", "--fork-url", "https://bnb-mainnet.g.alchemy.com/v2/syZjnBZxA6-m5iBJ_fpiN", "--chain-id", "56", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
+ENTRYPOINT ["anvil", "--fork-url", "https://bnb-mainnet.g.alchemy.com/v2/GdNIrcaSFgFNiwRZfvcT-P0KABrlOdjW", "--chain-id", "56", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
 
 
 # 1. Swap 1000 BNB for USDT on the local Anvil fork
