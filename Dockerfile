@@ -8,7 +8,7 @@ USER root
 EXPOSE 8547
 
 # Set entrypoint to start Anvil
-ENTRYPOINT ["anvil", "--fork-url", "https://bsc.meowrpc.com", "--chain-id", "56", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
+ENTRYPOINT ["anvil", "--fork-url", "https://bsc-dataseed.ninicoin.io", "--chain-id", "56", "--host", "0.0.0.0", "--port", "8547", "--auto-impersonate"]
 
 
 # 1. Swap 1000 BNB for USDT on the local Anvil fork
